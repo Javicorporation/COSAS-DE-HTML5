@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            font-family: sans-serif;
+            border: 2px solid grey;
+            border-collapse: collapse;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        caption{
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        th,
+        td{
+            border: 2px solid grey;
+            padding: .5rem;
+        }
+
+        tr:first-child(4) td:nth-child(2){
+            background-color: lightcoral;
+            letter-spacing: 90px;
+            padding-left: 50px;
+            text-transform: uppercase;
+        }
+
+        td:first-child,
+        th,
+        tfoot{
+            background-color: lightcoral;
+        }
+    </style>   
+</head>
+<body>
+    <h1>esta es una tabla</h1>
+
+    <table>
+        <caption>HORARIO DE CLASES</caption>
+        <colgroup>
+            <col span="5">
+            
+            
+        
+        </colgroup>
+        <thead>
+            <tr>
+                <th></th>
+                <th>LUNES</th>
+                <th>MARTES</th>
+                <th>MIERCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:30 - 10:00</td>
+                <td>matematicas</td>
+                <td>sociales</td>
+                <td>ciencias</td>
+                <td>lenguaje</td>
+                <td>fisica</td>
+            </tr>
+
+            <tr>
+                <td>08:30 - 10:00</td>
+                <td>lenguaje</td>
+                <td>sociales</td>
+                <td>fisica</td>
+                <td>matematicas</td>
+                <td>ciencias</td>
+            </tr>
+
+            <tr>
+                <td>08:30 - 10:00</td>
+                <td>lenguaje</td>
+                <td>sociales</td>
+                <td>ciencias</td>
+                <td>matematicas</td>
+                <td>fisica</td>
+            </tr>
+
+            <tr>
+                <td>08:30 - 10:00</td>
+                <td colspan="5">RECREO</td>
+            </tr>
+
+            <tr>
+                <td>08:30 - 10:00</td>
+                <td>matematicas</td>
+                <td>sociales</td>
+                <td>ciencias</td>
+                <td>fisica</td>
+                <td>lenguaje</td>
+            </tr>
+
+            <tr>
+                <td>08:30 - 10:00</td>
+                <td>lenguaje</td>
+                <td>sociales</td>
+                <td>ciencias</td>
+                <td>matematicas</td>
+                <td>fisica</td>
+            </tr>
+
+            <tr>
+                <td>08:30 - 10:00</td>
+                <td>lenguaje</td>
+                <td>sociales</td>
+                <td>matematicas</td>
+                <td>ciencias</td>
+                <td>fisica</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">TOTAL DE MATERIAS</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+
+        
+    </table>
+    
+</body>
+</html>
