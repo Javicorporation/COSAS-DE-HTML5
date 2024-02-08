@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selects</title>
+</head>
+<body>
+    <header>
+        <h3>select basicos</h3>
+        home 
+        menu
+    </header>
+    <main>
+        <button><a href="/Conexion-Demo/index.html">vamos al inicio</a></button>
+
+        <form>
+            <select name="lenguajes">
+                <option value="html">html</option>
+                <option value="js">javascrpt</option>
+                <option value="php">php</option>
+            </select>
+        </form>
+        <hr>
+        <form>
+            <select name="animales">
+                <optgroup label="4 patas">
+                    <option value="perro">perro</option>
+                    <option value="gato">gato</option>
+                    <option value="conejo">conejo</option>
+                </optgroup>
+                <optgroup label="2 patas">
+                    <option value="gallina">gallina</option>
+                    <option value="codornis">codornis</option>
+                    <option value="pato">patos</option>
+                </optgroup>
+            </select>
+        </form>
+        <hr>
+        <form>
+            <input type="list" list="pets">
+            <datalist id="pets">
+                <option value="dog">perro</option>
+                <option value="cat"></option>
+                <option value="bunny"></option>
+                <option value="pink"></option>
+            </datalist>
+        </form>
+    </main>
+    <footer>
+        derechos de autor
+    </footer>
+    
+</body>
+</html>
